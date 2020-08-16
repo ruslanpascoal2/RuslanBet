@@ -1,0 +1,12 @@
+.wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+app-nav-bar,
+app-bet-bar {
+    height: 100%;
+    width: 100%;
+}

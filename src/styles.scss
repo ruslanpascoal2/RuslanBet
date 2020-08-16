@@ -1,1 +1,10 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: "LogoFont";
+    src: url("./assets/fonts/NEVERSAYDIE.ttf") format("opentype");
+}
+.logo {
+    font-family: "LogoFont", Fallback, sans-serif !important;
+}
+:not(.logo) {
+    font-family: "Lato", sans-serif;
+}

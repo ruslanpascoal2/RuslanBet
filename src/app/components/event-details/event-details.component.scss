@@ -1,0 +1,12 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    max-height: calc(70vh - 20px);
+    overflow: auto;
+    border-top: 1px solid red;
+    background: teal;
+}
+.box {
+    min-height: 1000px;
+}
